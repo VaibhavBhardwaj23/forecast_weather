@@ -1,0 +1,47 @@
+.date_time {
+  background-color: #aecadf;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.date_time p {
+  color: black;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+}
+
+.todays_card {
+  max-width: 300px;
+  border-radius: 1em;
+  overflow: hidden;
+  background-color: #bbd7ec;
+}
+.temperature {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.temperature h2 {
+  color: black;
+  font-size: 3em;
+}
+.temperature sup {
+  color: black;
+}
+.additionalInfo {
+  padding: 0.6em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.additionalInfo p {
+  font-size: 0.7em;
+  color: #35424b;
+  font-weight: 500;
+}
+.additionalInfo span {
+  color: black;
+  font-weight: 600;
+}

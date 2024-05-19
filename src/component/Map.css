@@ -1,0 +1,7 @@
+.mapContainer {
+  height: 450px;
+  width: 100%;
+}
+.leaflet-control-attribution.leaflet-control {
+  display: none;
+}

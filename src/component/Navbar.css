@@ -1,0 +1,64 @@
+.searchBar {
+  background-color: #1e1e1e;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 0%;
+  margin: 1em auto;
+  transition: all ease-in-out 1s;
+  min-width: 60px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  gap: 20px;
+}
+.img_box {
+  width: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchImage {
+  filter: invert();
+  width: 100%;
+}
+.open {
+  width: 50%;
+  transition: all ease-in-out 1s;
+}
+.inputBox {
+  font-size: 0.9rem;
+  padding: 5px;
+  width: 74%;
+  background-color: transparent;
+  border: none;
+  font-family: "Raleway", sans-serif;
+}
+.inputBox:focus {
+  border: none;
+  outline: none;
+}
+.hide {
+  display: none;
+  transition: all ease-in-out 1s;
+}
+.seacrchBtn {
+  background-color: #111015b7;
+  border: none;
+  font-size: 0.9rem;
+  padding: 7px 10px;
+  border-radius: 10px;
+  transition: all ease-in-out 0.7s;
+}
+.seacrchBtn:hover {
+  scale: 1.1;
+  transition: all ease-in-out 0.7s;
+  cursor: pointer;
+  background-color: #111015;
+}
+
+@media screen and (max-width: 610px) {
+  .open {
+    width: 90%;
+  }
+}
